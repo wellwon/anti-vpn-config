@@ -1,0 +1,20 @@
+{
+  "_comment": "Шаблон манифеста авто-обновления (tauri-plugin-updater). Заполняется на релизе (P9): version, pub_date, и подписи/ссылки на артефакты сборки. signature берётся из .sig файла, сгенерированного при сборке с TAURI_SIGNING_PRIVATE_KEY.",
+  "version": "1.0.0",
+  "notes": "Первый релиз ANTIVPN.",
+  "pub_date": "2026-06-03T00:00:00Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "<PLACEHOLDER: содержимое .app.tar.gz.sig>",
+      "url": "https://github.com/wellwon/anti-vpn/releases/download/v1.0.0/ANTIVPN_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "<PLACEHOLDER>",
+      "url": "https://github.com/wellwon/anti-vpn/releases/download/v1.0.0/ANTIVPN_x64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "<PLACEHOLDER>",
+      "url": "https://github.com/wellwon/anti-vpn/releases/download/v1.0.0/ANTIVPN_x64-setup.nsis.zip"
+    }
+  }
+}
