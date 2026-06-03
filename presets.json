@@ -1,22 +1,16 @@
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-06-03",
   "categories": [
-    {
-      "key": "gov",
-      "title": "Государственные",
-      "sites": [
-        "gosuslugi.ru", "gov.ru", "nalog.ru", "nalog.gov.ru", "zakupki.gov.ru",
-        "fsa.gov.ru", "roszdravnadzor.gov.ru", "pravo.gov.ru", "cbr.gov.ru",
-        "rosreestr.gov.ru", "fssp.gov.ru", "pfr.gov.ru", "sfr.gov.ru",
-        "mvd.gov.ru", "customs.gov.ru", "edata.customs.ru", "minzdrav.gov.ru",
-        "sudrf.ru", "kad.arbitr.ru", "arbitr.ru", "fedresurs.ru", "egrul.nalog.ru"
-      ]
-    },
     {
       "key": "market",
       "title": "Маркетплейсы",
       "sites": ["wildberries.ru", "ozon.ru", "market.yandex.ru", "megamarket.ru", "avito.ru"]
+    },
+    {
+      "key": "social",
+      "title": "Соцсети",
+      "sites": ["vk.com", "vk.ru", "vkvideo.ru", "ok.ru", "mail.ru"]
     },
     {
       "key": "bank",
@@ -25,16 +19,6 @@
         "sberbank.ru", "sber.ru", "tbank.ru", "tinkoff.ru", "vtb.ru",
         "alfabank.ru", "gazprombank.ru", "open.ru", "sovcombank.ru",
         "raiffeisen.ru", "psbank.ru", "rshb.ru", "rosbank.ru", "mkb.ru"
-      ]
-    },
-    {
-      "key": "ved",
-      "title": "ВЭД и таможня",
-      "sites": [
-        "alta.ru", "tks.ru", "tamognia.ru", "ifcg.ru", "crpt.ru",
-        "markirovka.ru", "gost.ru", "protect.gost.ru", "roseltorg.ru",
-        "sberbank-ast.ru", "rts-tender.ru", "b2b-center.ru", "zakazrf.ru",
-        "kontur.ru", "diadoc.ru", "sbis.ru"
       ]
     },
     {
@@ -48,9 +32,25 @@
       ]
     },
     {
-      "key": "social",
-      "title": "Соцсети",
-      "sites": ["vk.com", "vk.ru", "vkvideo.ru", "ok.ru", "mail.ru"]
+      "key": "gov",
+      "title": "Государственные",
+      "sites": [
+        "gosuslugi.ru", "gov.ru", "nalog.ru", "nalog.gov.ru", "zakupki.gov.ru",
+        "fsa.gov.ru", "roszdravnadzor.gov.ru", "pravo.gov.ru", "cbr.gov.ru",
+        "rosreestr.gov.ru", "fssp.gov.ru", "pfr.gov.ru", "sfr.gov.ru",
+        "mvd.gov.ru", "customs.gov.ru", "edata.customs.ru", "minzdrav.gov.ru",
+        "sudrf.ru", "kad.arbitr.ru", "arbitr.ru", "fedresurs.ru", "egrul.nalog.ru"
+      ]
+    },
+    {
+      "key": "ved",
+      "title": "ВЭД и таможня",
+      "sites": [
+        "alta.ru", "tks.ru", "tamognia.ru", "ifcg.ru", "crpt.ru",
+        "markirovka.ru", "gost.ru", "protect.gost.ru", "roseltorg.ru",
+        "sberbank-ast.ru", "rts-tender.ru", "b2b-center.ru", "zakazrf.ru",
+        "kontur.ru", "diadoc.ru", "sbis.ru"
+      ]
     },
     {
       "key": "wechat",
