@@ -1,286 +1,605 @@
 {
-  "version": 3,
+  "version": 5,
   "updatedAt": "2026-06-03",
   "categories": [
     {
       "key": "market",
       "title": "Маркетплейсы",
-      "sites": [
-        "a.wb.ru",
-        "avito.ru",
-        "basket-01.wbbasket.ru",
-        "basket-02.wbbasket.ru",
-        "basket-03.wbbasket.ru",
-        "basket-04.wbbasket.ru",
-        "basket-05.wbbasket.ru",
-        "basket-06.wbbasket.ru",
-        "basket-07.wbbasket.ru",
-        "basket-08.wbbasket.ru",
-        "basket-09.wbbasket.ru",
-        "basket-10.wbbasket.ru",
-        "basket-11.wbbasket.ru",
-        "basket-12.wbbasket.ru",
-        "basket-13.wbbasket.ru",
-        "basket-14.wbbasket.ru",
-        "basket-15.wbbasket.ru",
-        "basket-16.wbbasket.ru",
-        "basket-17.wbbasket.ru",
-        "basket-18.wbbasket.ru",
-        "basket-19.wbbasket.ru",
-        "basket-20.wbbasket.ru",
-        "basket-21.wbbasket.ru",
-        "basket-22.wbbasket.ru",
-        "basket-23.wbbasket.ru",
-        "basket-24.wbbasket.ru",
-        "basket-25.wbbasket.ru",
-        "basket-26.wbbasket.ru",
-        "basket-27.wbbasket.ru",
-        "basket-28.wbbasket.ru",
-        "basket-29.wbbasket.ru",
-        "basket-30.wbbasket.ru",
-        "card.wb.ru",
-        "cards.wb.ru",
-        "catalog.wb.ru",
-        "cdn1.ozone.ru",
-        "cdn2.ozone.ru",
-        "cmp.wildberries.ru",
-        "dns-shop.ru",
-        "geo.wb.ru",
-        "images.wbstatic.net",
-        "ir.ozone.ru",
-        "lamoda.ru",
-        "market.yandex.ru",
-        "megamarket.ru",
-        "mobile-api.wildberries.ru",
-        "napi.wildberries.ru",
-        "ozon.ru",
-        "pcv.wildberries.ru",
-        "search.wb.ru",
-        "seller.ozon.ru",
-        "seller.wildberries.ru",
-        "static.wbstatic.net",
-        "suppliers-portal.wildberries.ru",
-        "user-geo-data.wildberries.ru",
-        "wb.ru",
-        "wbxcatalog-ru.wildberries.ru",
-        "wildberries.ru",
-        "www.avito.ru",
-        "www.dns-shop.ru",
-        "www.lamoda.ru",
-        "www.ozon.ru",
-        "www.wb.ru",
-        "www.wildberries.ru",
-        "xapi.ozon.ru"
+      "services": [
+        {
+          "id": "wildberries",
+          "title": "Wildberries",
+          "domains": [
+            "a.wb.ru",
+            "basket-01.wbbasket.ru",
+            "basket-02.wbbasket.ru",
+            "basket-03.wbbasket.ru",
+            "basket-04.wbbasket.ru",
+            "basket-05.wbbasket.ru",
+            "basket-06.wbbasket.ru",
+            "basket-07.wbbasket.ru",
+            "basket-08.wbbasket.ru",
+            "basket-09.wbbasket.ru",
+            "basket-10.wbbasket.ru",
+            "basket-11.wbbasket.ru",
+            "basket-12.wbbasket.ru",
+            "basket-13.wbbasket.ru",
+            "basket-14.wbbasket.ru",
+            "basket-15.wbbasket.ru",
+            "basket-16.wbbasket.ru",
+            "basket-17.wbbasket.ru",
+            "basket-18.wbbasket.ru",
+            "basket-19.wbbasket.ru",
+            "basket-20.wbbasket.ru",
+            "basket-21.wbbasket.ru",
+            "basket-22.wbbasket.ru",
+            "basket-23.wbbasket.ru",
+            "basket-24.wbbasket.ru",
+            "basket-25.wbbasket.ru",
+            "basket-26.wbbasket.ru",
+            "basket-27.wbbasket.ru",
+            "basket-28.wbbasket.ru",
+            "basket-29.wbbasket.ru",
+            "basket-30.wbbasket.ru",
+            "card.wb.ru",
+            "cards.wb.ru",
+            "catalog.wb.ru",
+            "cmp.wildberries.ru",
+            "geo.wb.ru",
+            "images.wbstatic.net",
+            "mobile-api.wildberries.ru",
+            "napi.wildberries.ru",
+            "pcv.wildberries.ru",
+            "search.wb.ru",
+            "seller.wildberries.ru",
+            "static.wbstatic.net",
+            "suppliers-portal.wildberries.ru",
+            "user-geo-data.wildberries.ru",
+            "wb.ru",
+            "wbxcatalog-ru.wildberries.ru",
+            "wildberries.ru",
+            "www.wb.ru",
+            "www.wildberries.ru"
+          ]
+        },
+        {
+          "id": "avito",
+          "title": "Avito",
+          "domains": [
+            "avito.ru",
+            "www.avito.ru"
+          ]
+        },
+        {
+          "id": "ozon",
+          "title": "Ozon",
+          "domains": [
+            "cdn1.ozone.ru",
+            "cdn2.ozone.ru",
+            "ir.ozone.ru",
+            "ozon.ru",
+            "seller.ozon.ru",
+            "www.ozon.ru",
+            "xapi.ozon.ru"
+          ]
+        },
+        {
+          "id": "dns",
+          "title": "DNS",
+          "domains": [
+            "dns-shop.ru",
+            "www.dns-shop.ru"
+          ]
+        },
+        {
+          "id": "lamoda",
+          "title": "Lamoda",
+          "domains": [
+            "lamoda.ru",
+            "www.lamoda.ru"
+          ]
+        },
+        {
+          "id": "yamarket",
+          "title": "Яндекс Маркет",
+          "domains": [
+            "market.yandex.ru"
+          ]
+        },
+        {
+          "id": "megamarket",
+          "title": "Мегамаркет",
+          "domains": [
+            "megamarket.ru"
+          ]
+        },
+        {
+          "id": "samokat",
+          "title": "Самокат",
+          "domains": [
+            "samokat.ru"
+          ]
+        }
       ]
     },
     {
       "key": "social",
       "title": "Соцсети",
-      "sites": [
-        "vk.com",
-        "vk.ru",
-        "vkvideo.ru"
+      "services": [
+        {
+          "id": "vk",
+          "title": "ВКонтакте",
+          "domains": [
+            "vk.com",
+            "vk.ru",
+            "vkvideo.ru"
+          ]
+        }
       ]
     },
     {
       "key": "bank",
       "title": "Банки",
-      "sites": [
-        "alfabank.ru",
-        "gazprombank.ru",
-        "mkb.ru",
-        "online.alfabank.ru",
-        "online.sberbank.ru",
-        "online.vtb.ru",
-        "open.ru",
-        "psbank.ru",
-        "raiffeisen.ru",
-        "rosbank.ru",
-        "rshb.ru",
-        "sber.ru",
-        "sberbank-ast.ru",
-        "sberbank.ru",
-        "sovcombank.ru",
-        "tbank.ru",
-        "tinkoff.ru",
-        "vtb.ru"
+      "services": [
+        {
+          "id": "alfa",
+          "title": "Альфа-Банк",
+          "domains": [
+            "alfabank.ru",
+            "online.alfabank.ru"
+          ]
+        },
+        {
+          "id": "gpb",
+          "title": "Газпромбанк",
+          "domains": [
+            "gazprombank.ru"
+          ]
+        },
+        {
+          "id": "mkb",
+          "title": "МКБ",
+          "domains": [
+            "mkb.ru"
+          ]
+        },
+        {
+          "id": "sber",
+          "title": "Сбербанк",
+          "domains": [
+            "online.sberbank.ru",
+            "sber.ru",
+            "sberbank.ru"
+          ]
+        },
+        {
+          "id": "vtb",
+          "title": "ВТБ",
+          "domains": [
+            "online.vtb.ru",
+            "vtb.ru"
+          ]
+        },
+        {
+          "id": "open",
+          "title": "Банк Открытие",
+          "domains": [
+            "open.ru"
+          ]
+        },
+        {
+          "id": "psb",
+          "title": "ПСБ",
+          "domains": [
+            "psbank.ru"
+          ]
+        },
+        {
+          "id": "raif",
+          "title": "Райффайзен",
+          "domains": [
+            "raiffeisen.ru"
+          ]
+        },
+        {
+          "id": "rosbank",
+          "title": "Росбанк",
+          "domains": [
+            "rosbank.ru"
+          ]
+        },
+        {
+          "id": "rshb",
+          "title": "Россельхозбанк",
+          "domains": [
+            "rshb.ru"
+          ]
+        },
+        {
+          "id": "sovcom",
+          "title": "Совкомбанк",
+          "domains": [
+            "sovcombank.ru"
+          ]
+        },
+        {
+          "id": "tbank",
+          "title": "Т-Банк",
+          "domains": [
+            "tbank.ru",
+            "tinkoff.ru"
+          ]
+        }
       ]
     },
     {
       "key": "media",
       "title": "Медиа и ТВ",
-      "sites": [
-        "1tv.ru",
-        "hd.kinopoisk.ru",
-        "ivi.ru",
-        "kinopoisk.ru",
-        "kion.ru",
-        "matchtv.ru",
-        "more.tv",
-        "music.yandex.ru",
-        "ntv.ru",
-        "okko.tv",
-        "premier.one",
-        "rutube.ru",
-        "rzd.ru",
-        "smotrim.ru",
-        "sportbox.ru",
-        "start.ru",
-        "wink.ru",
-        "www.kinopoisk.ru",
-        "zvuk.com"
+      "services": [
+        {
+          "id": "tv",
+          "title": "ТВ-каналы",
+          "domains": [
+            "1tv.ru",
+            "matchtv.ru",
+            "ntv.ru",
+            "smotrim.ru",
+            "sportbox.ru"
+          ]
+        },
+        {
+          "id": "kinopoisk",
+          "title": "Кинопоиск",
+          "domains": [
+            "hd.kinopoisk.ru",
+            "kinopoisk.ru",
+            "www.kinopoisk.ru"
+          ]
+        },
+        {
+          "id": "ivi",
+          "title": "ivi",
+          "domains": [
+            "ivi.ru"
+          ]
+        },
+        {
+          "id": "kion",
+          "title": "KION",
+          "domains": [
+            "kion.ru"
+          ]
+        },
+        {
+          "id": "moretv",
+          "title": "more.tv",
+          "domains": [
+            "more.tv"
+          ]
+        },
+        {
+          "id": "music",
+          "title": "Музыка",
+          "domains": [
+            "music.yandex.ru",
+            "zvuk.com"
+          ]
+        },
+        {
+          "id": "okko",
+          "title": "Okko",
+          "domains": [
+            "okko.tv"
+          ]
+        },
+        {
+          "id": "premier",
+          "title": "Premier",
+          "domains": [
+            "premier.one"
+          ]
+        },
+        {
+          "id": "rutube",
+          "title": "RuTube",
+          "domains": [
+            "rutube.ru"
+          ]
+        },
+        {
+          "id": "start",
+          "title": "START",
+          "domains": [
+            "start.ru"
+          ]
+        },
+        {
+          "id": "wink",
+          "title": "Wink",
+          "domains": [
+            "wink.ru"
+          ]
+        }
       ]
     },
     {
       "key": "gov",
       "title": "Государственные",
-      "sites": [
-        "api.damia.ru",
-        "arbitr.ru",
-        "boxberry.ru",
-        "budget.gov.ru",
-        "cbr.gov.ru",
-        "cdek.ru",
-        "clearspending.gov.ru",
-        "customs.gov.ru",
-        "digital.gov.ru",
-        "dpd.ru",
-        "economy.gov.ru",
-        "eec.roszdravnadzor.gov.ru",
-        "egrul.nalog.ru",
-        "elk.roszdravnadzor.gov.ru",
-        "eruz.zakupki.gov.ru",
-        "esia.gosuslugi.gov.ru",
-        "esia.gosuslugi.ru",
-        "etp-ets.ru",
-        "fas.gov.ru",
-        "fsa.gov.ru",
-        "fssp.gov.ru",
-        "gosuslugi.gov.ru",
-        "gosuslugi.ru",
-        "gov.ru",
-        "government.gov.ru",
-        "int44.zakupki.gov.ru",
-        "is.fssp.gov.ru",
-        "kad.arbitr.ru",
-        "kremlin.gov.ru",
-        "lk.gosuslugi.gov.ru",
-        "lk.gosuslugi.ru",
-        "lk.rosreestr.gov.ru",
-        "lkfl2.nalog.gov.ru",
-        "lkip2.nalog.gov.ru",
-        "lkul.nalog.gov.ru",
-        "mchs.gov.ru",
-        "mid.gov.ru",
-        "minfin.gov.ru",
-        "minobrnauki.gov.ru",
-        "minpromtorg.gov.ru",
-        "mintrans.gov.ru",
-        "minzdrav.gov.ru",
-        "mos.ru",
-        "moy-zakupki.ru",
-        "mvd.gov.ru",
-        "nalog.gov.ru",
-        "nalog.ru",
-        "nevacert.ru",
-        "obrnadzor.gov.ru",
-        "pb.nalog.ru",
-        "pfr.gov.ru",
-        "pochta.ru",
-        "pos.gosuslugi.gov.ru",
-        "pravo.gov.ru",
-        "pub.fsa.gov.ru",
-        "reestr.digital.gov.ru",
-        "regulation.gov.ru",
-        "roskazna.gov.ru",
-        "rosmintrud.gov.ru",
-        "rospatent.gov.ru",
-        "rosreestr.gov.ru",
-        "rosstat.gov.ru",
-        "rostrud.gov.ru",
-        "roszdravnadzor.gov.ru",
-        "rpn.gov.ru",
-        "service.nalog.ru",
-        "sfr.gov.ru",
-        "spending.gov.ru",
-        "sudrf.ru",
-        "ved.customs.gov.ru",
-        "vsrf.ru",
-        "www.gosuslugi.ru",
-        "www.gov.ru",
-        "zakupki.gov.ru"
+      "services": [
+        {
+          "id": "courts",
+          "title": "Суды",
+          "domains": [
+            "arbitr.ru",
+            "kad.arbitr.ru",
+            "sudrf.ru",
+            "vsrf.ru"
+          ]
+        },
+        {
+          "id": "cbr",
+          "title": "ЦБ РФ",
+          "domains": [
+            "cbr.gov.ru"
+          ]
+        },
+        {
+          "id": "zakupki",
+          "title": "Госзакупки",
+          "domains": [
+            "clearspending.gov.ru",
+            "eruz.zakupki.gov.ru",
+            "int44.zakupki.gov.ru",
+            "moy-zakupki.ru",
+            "spending.gov.ru",
+            "zakupki.gov.ru"
+          ]
+        },
+        {
+          "id": "customs",
+          "title": "Таможня",
+          "domains": [
+            "customs.gov.ru",
+            "edata.customs.ru",
+            "ved.customs.gov.ru"
+          ]
+        },
+        {
+          "id": "roszn",
+          "title": "Росздравнадзор",
+          "domains": [
+            "eec.roszdravnadzor.gov.ru",
+            "elk.roszdravnadzor.gov.ru",
+            "roszdravnadzor.gov.ru"
+          ]
+        },
+        {
+          "id": "nalog",
+          "title": "ФНС / Налоги",
+          "domains": [
+            "egrul.nalog.ru",
+            "lkfl2.nalog.gov.ru",
+            "lkip2.nalog.gov.ru",
+            "lkul.nalog.gov.ru",
+            "nalog.gov.ru",
+            "nalog.ru",
+            "pb.nalog.ru",
+            "service.nalog.ru"
+          ]
+        },
+        {
+          "id": "gosuslugi",
+          "title": "Госуслуги",
+          "domains": [
+            "esia.gosuslugi.gov.ru",
+            "esia.gosuslugi.ru",
+            "gosuslugi.gov.ru",
+            "gosuslugi.ru",
+            "lk.gosuslugi.gov.ru",
+            "lk.gosuslugi.ru",
+            "pos.gosuslugi.gov.ru",
+            "www.gosuslugi.ru"
+          ]
+        },
+        {
+          "id": "fsa",
+          "title": "Росаккредитация",
+          "domains": [
+            "fsa.gov.ru",
+            "pub.fsa.gov.ru"
+          ]
+        },
+        {
+          "id": "fssp",
+          "title": "ФССП",
+          "domains": [
+            "fssp.gov.ru",
+            "is.fssp.gov.ru"
+          ]
+        },
+        {
+          "id": "rosreestr",
+          "title": "Росреестр",
+          "domains": [
+            "lk.rosreestr.gov.ru",
+            "rosreestr.gov.ru"
+          ]
+        },
+        {
+          "id": "mvd",
+          "title": "Силовые ведомства",
+          "domains": [
+            "mchs.gov.ru",
+            "mid.gov.ru",
+            "mvd.gov.ru"
+          ]
+        },
+        {
+          "id": "minzdrav",
+          "title": "Минздрав",
+          "domains": [
+            "minzdrav.gov.ru"
+          ]
+        },
+        {
+          "id": "pfr",
+          "title": "ПФР / СФР",
+          "domains": [
+            "pfr.gov.ru",
+            "sfr.gov.ru"
+          ]
+        },
+        {
+          "id": "gov_other",
+          "title": "Прочие госпорталы",
+          "domains": [
+            "boxberry.ru",
+            "budget.gov.ru",
+            "cdek.ru",
+            "digital.gov.ru",
+            "dpd.ru",
+            "economy.gov.ru",
+            "etp-ets.ru",
+            "fas.gov.ru",
+            "gov.ru",
+            "government.gov.ru",
+            "kremlin.gov.ru",
+            "minfin.gov.ru",
+            "minobrnauki.gov.ru",
+            "minpromtorg.gov.ru",
+            "mintrans.gov.ru",
+            "mos.ru",
+            "nevacert.ru",
+            "obrnadzor.gov.ru",
+            "pochta.ru",
+            "pravo.gov.ru",
+            "reestr.digital.gov.ru",
+            "regulation.gov.ru",
+            "roskazna.gov.ru",
+            "rosmintrud.gov.ru",
+            "rospatent.gov.ru",
+            "rosstat.gov.ru",
+            "rostrud.gov.ru",
+            "rpn.gov.ru",
+            "rzd.ru",
+            "www.gov.ru"
+          ]
+        }
       ]
     },
     {
       "key": "ved",
       "title": "ВЭД и таможня",
-      "sites": [
-        "alta.ru",
-        "b2b-center.ru",
-        "cdn.crpt.ru",
-        "crpt.ru",
-        "diadoc.ru",
-        "edata.customs.ru",
-        "extern.kontur.ru",
-        "fedresurs.ru",
-        "focus.kontur.ru",
-        "gost.ru",
-        "ifcg.ru",
-        "ismp.crpt.ru",
-        "kontur.ru",
-        "lk.crpt.ru",
-        "markirovka.crpt.ru",
-        "markirovka.ru",
-        "mdlp.crpt.ru",
-        "online.sbis.ru",
-        "protect.gost.ru",
-        "roseltorg.ru",
-        "rts-tender.ru",
-        "sbis.ru",
-        "suz.crpt.ru",
-        "tamognia.ru",
-        "tks.ru",
-        "www.alta.ru",
-        "www.tks.ru",
-        "xn--80ajghhoc2aj1c8b.xn--p1ai",
-        "zakazrf.ru"
+      "services": [
+        {
+          "id": "customs_ved",
+          "title": "ТН ВЭД / таможня",
+          "domains": [
+            "alta.ru",
+            "ifcg.ru",
+            "tamognia.ru",
+            "tks.ru",
+            "www.alta.ru",
+            "www.tks.ru"
+          ]
+        },
+        {
+          "id": "contragent",
+          "title": "Проверка контрагентов",
+          "domains": [
+            "api.damia.ru",
+            "fedresurs.ru"
+          ]
+        },
+        {
+          "id": "etp",
+          "title": "ЭТП / Госзакупки",
+          "domains": [
+            "b2b-center.ru",
+            "roseltorg.ru",
+            "rts-tender.ru",
+            "sberbank-ast.ru",
+            "zakazrf.ru"
+          ]
+        },
+        {
+          "id": "crpt",
+          "title": "Честный знак",
+          "domains": [
+            "cdn.crpt.ru",
+            "crpt.ru",
+            "ismp.crpt.ru",
+            "lk.crpt.ru",
+            "markirovka.crpt.ru",
+            "markirovka.ru",
+            "mdlp.crpt.ru",
+            "suz.crpt.ru",
+            "xn--80ajghhoc2aj1c8b.xn--p1ai"
+          ]
+        },
+        {
+          "id": "edo",
+          "title": "ЭДО (Контур/СБИС)",
+          "domains": [
+            "diadoc.ru",
+            "extern.kontur.ru",
+            "focus.kontur.ru",
+            "kontur.ru",
+            "online.sbis.ru",
+            "sbis.ru"
+          ]
+        },
+        {
+          "id": "gost",
+          "title": "ГОСТ",
+          "domains": [
+            "gost.ru",
+            "protect.gost.ru"
+          ]
+        }
       ]
     },
     {
       "key": "wechat",
       "title": "WeChat",
-      "sites": [
-        "dldir1.qq.com",
-        "dldir1v6.qq.com",
-        "dns.weixin.qq.com",
-        "file.wx.qq.com",
-        "gtimg.cn",
-        "hkextshort.weixin.qq.com",
-        "hkshort.weixin.qq.com",
-        "long.weixin.qq.com",
-        "minorshort.weixin.qq.com",
-        "mmbiz.qpic.cn",
-        "mp.weixin.qq.com",
-        "qlogo.cn",
-        "qpic.cn",
-        "qq.com",
-        "res.wx.qq.com",
-        "short.weixin.qq.com",
-        "support.weixin.qq.com",
-        "szextshort.weixin.qq.com",
-        "szlong.weixin.qq.com",
-        "szshort.weixin.qq.com",
-        "web.wechat.com",
-        "web.wechatapp.com",
-        "webpush.wx.qq.com",
-        "webpush.wx2.qq.com",
-        "wechat.com",
-        "weixin.qq.com",
-        "www.wechat.com",
-        "wx.qlogo.cn",
-        "wx.qq.com",
-        "wx2.qq.com",
-        "wx3.qq.com"
+      "services": [
+        {
+          "id": "wechat",
+          "title": "WeChat",
+          "domains": [
+            "dldir1.qq.com",
+            "dldir1v6.qq.com",
+            "dns.weixin.qq.com",
+            "file.wx.qq.com",
+            "gtimg.cn",
+            "hkextshort.weixin.qq.com",
+            "hkshort.weixin.qq.com",
+            "long.weixin.qq.com",
+            "minorshort.weixin.qq.com",
+            "mmbiz.qpic.cn",
+            "mp.weixin.qq.com",
+            "qlogo.cn",
+            "qpic.cn",
+            "qq.com",
+            "res.wx.qq.com",
+            "short.weixin.qq.com",
+            "support.weixin.qq.com",
+            "szextshort.weixin.qq.com",
+            "szlong.weixin.qq.com",
+            "szshort.weixin.qq.com",
+            "web.wechat.com",
+            "web.wechatapp.com",
+            "webpush.wx.qq.com",
+            "webpush.wx2.qq.com",
+            "wechat.com",
+            "weixin.qq.com",
+            "www.wechat.com",
+            "wx.qlogo.cn",
+            "wx.qq.com",
+            "wx2.qq.com",
+            "wx3.qq.com"
+          ]
+        }
       ]
     }
   ]
