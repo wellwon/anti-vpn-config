@@ -14,12 +14,7 @@
 | macOS · Intel | **[ANTIVPN.dmg](https://github.com/wellwon/anti-vpn-config/releases/latest/download/ANTIVPN_macos_x64.dmg)** |
 | Windows | _скоро_ |
 
-> ⚠️ Сборка пока без нотаризации Apple. macOS покажет «приложение повреждено» — это
-> Gatekeeper, а не реальная поломка. Открыть (один раз после установки в «Программы»):
-> ```sh
-> xattr -dr com.apple.quarantine /Applications/ANTIVPN.app
-> ```
-> затем открыть обычным способом. (Нотаризация уберёт этот шаг.)
+> ✅ Сборка подписана Developer ID и нотаризована Apple — скачивай и открывай обычным способом.
 
 ## Обновления
 Приложение само проверяет новые версии (этот репозиторий, `latest.json`) и предлагает
