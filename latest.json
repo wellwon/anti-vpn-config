@@ -1,11 +1,15 @@
 {
   "version": "0.2.0",
   "notes": "Авто-расширение кастомных ссылок по AS (RIPEstat), пейволл «Активация ANTIVPN», центральное уведомление об обновлении",
-  "pub_date": "2026-06-04T07:55:35Z",
+  "pub_date": "2026-06-04T08:24:30Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdGRCVWRXd1AydTFpT2hEODdza213dmhnWEpvUzA0VTdMQTZGeVBtWkVMWWN1Nm9oU2pCbDNYbi9JbDB5aUdqSXBQTm4raTZmSE9EUk11VjNKNVl0Y3BNNTlmRW0yVGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNTU5NzI3CWZpbGU6QU5USVZQTi5hcHAudGFyLmd6Cm5taEFjSFBOVEFvN1JuMVJ1V2ErOFVMb05zdFc3ZkdWVFRmbkIzTURJYzVGSFMzbmVRRzZNc2JIL1BtTlM1bS9MaloyNEZsTk9SN09uOWUwdytpVEJnPT0K",
       "url": "https://github.com/wellwon/anti-vpn-config/releases/download/v0.2.0/ANTIVPN_0.2.0_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdGRCVWRXd1AydXg5aUc1NGdMa0NBbnZrODUxN2FLN3FBNGpiVEhhVTUybGVYY3V1OGhZYU9ZNytVN2hGR1JBQk53QU5QaEZlQjNBUUdlMXNUdjh2cEhuZkxSSXRDSmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNTYxMzc2CWZpbGU6QU5USVZQTi5hcHAudGFyLmd6Cllha043TFFxZ0tKcFBmSEg5U2lZbFVPQWhrdjVJcmFCMXlvNGtuZmxqSDNScGJMNHVSQXh5cGJzMVBTVjhBYXRRTEViZm5PRDJrOTJxNkFuZHozTUFRPT0K",
+      "url": "https://github.com/wellwon/anti-vpn-config/releases/download/v0.2.0/ANTIVPN_0.2.0_darwin-x86_64.app.tar.gz"
     }
   }
 }
