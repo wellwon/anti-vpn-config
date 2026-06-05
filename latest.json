@@ -1,15 +1,15 @@
 {
-  "version": "0.2.5",
-  "notes": "Защита от дублей: один экземпляр приложения (повторный запуск/перезапуск апдейтера фокусирует существующее окно)",
-  "pub_date": "2026-06-05T17:40:06Z",
+  "version": "0.2.6",
+  "notes": "Авто-проверка обновлений раз в 30 минут (приходит само в работающее приложение)",
+  "pub_date": "2026-06-05T17:48:33Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdGRCVWRXd1AydSt6TU1kWG5TbElISG5lUVR2QUQ3K2hWa1FRaktzbXhoZ2FwWXByY1I4RHV2S0lra2xHb2p2NENZNExPWnRYTjhTNVRlWlNWb0NoWGJCSHBoRFhpMGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjgxMDg0CWZpbGU6QU5USVZQTi5hcHAudGFyLmd6Cm5TV0Z5WVI0VENNSkFIRDlzTDlNa2YzS3VXQmxKV3lZRUQ1NkM1Rll2MGQ1am5vNXZYditXWDR1UER6YzhIOWNKcG1PNGtGb2g4anErMjFnMFBQbUNRPT0K",
-      "url": "https://github.com/wellwon/anti-vpn-config/releases/download/v0.2.5/ANTIVPN_0.2.5_darwin-aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdGRCVWRXd1AydS96dVZRMzU4b2FFOHhqeUdaMXoyQkJKV202Sk5BWFE2RUx1L25oVUJOQXQwVk5HYmVLYkZzc0UvVmpjcHNlVk42ZWlIMEpGVmQvbllycElrOEhCY2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjgxNjEyCWZpbGU6QU5USVZQTi5hcHAudGFyLmd6Cmp4aEFsdzlpa0JCNW5iUmQzMWNpVnJrWVYvWjEvT3htVW1vUkZPZHZqWUZDdS9PZ2NIRWh0dUhFSHlvWHJmb21ESUptTnU2K0wrdEFtNmVjYjRwS0N3PT0K",
+      "url": "https://github.com/wellwon/anti-vpn-config/releases/download/v0.2.6/ANTIVPN_0.2.6_darwin-aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdGRCVWRXd1AydTh0aXprMTNwTDNYMHlKUW5uNDJZZ3BJWjBuUS9tQSsrQ0l3R3lsQUU0RzVsdHFHTnM0WWprYWVxdDR2bU9RdjEwMkxQNnN1U2pwVGFtdmY1dkF1QVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjgxMTk3CWZpbGU6QU5USVZQTi5hcHAudGFyLmd6Ci84S3ptWVBONmlaekUzQmRkN0pWaVQwZE54cjY2SzFnazVmb1AyTUJTN1hxdEo2RFUzOGRZNmpVZk5jNEErSk1NcEtMd3hzaWwrdXNwc2s3bmdhRkFBPT0K",
-      "url": "https://github.com/wellwon/anti-vpn-config/releases/download/v0.2.5/ANTIVPN_0.2.5_darwin-x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTdGRCVWRXd1AydTEvNWFpK3ZyTmRKbzdGSm1CbzNNMjVVOUo5WlprZFZDVWd5UW9RcjM4Z0I3RHlTcTMvVU1zWGx3SmhJN2o4MHdFZFgwYkdqT2pqL3dzdnlCeHdKMVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjgxNzA1CWZpbGU6QU5USVZQTi5hcHAudGFyLmd6CktIWVYzY0VEaDFKZU1FN3BDME03dWJOS3hEaDBmYWwxbWJQb09yVEZaQzd1Z3R3QUJjZHhsS0hWemdDa001OW1oNnpya1B0d0ZzdlY4Q3ltcDd5SEJ3PT0K",
+      "url": "https://github.com/wellwon/anti-vpn-config/releases/download/v0.2.6/ANTIVPN_0.2.6_darwin-x86_64.app.tar.gz"
     }
   }
 }
